@@ -13,3 +13,22 @@
  *= require_tree .
  *= require_self
  */
+.direction {
+  display: flex;
+  flex-direction: row;
+}
+
+ .blue-box {
+  width: 20px;
+  height: 20px;
+  list-style-type: none;
+  background-color: rgb(73, 141, 237);
+  color: white;
+  padding: 10px;
+  margin: 0px 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  border: solid rgb(36, 73, 125) 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.086);
+ }
